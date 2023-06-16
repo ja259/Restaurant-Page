@@ -3,7 +3,6 @@ import createMenuPage from "./menu";
 import createRestaurantHomePage from "./restaurant";
 
 const createTabs = () => {
-    alert("Hello");
     const content = document.querySelector('#content');
 
     //Create the three divs
