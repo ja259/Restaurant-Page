@@ -3,6 +3,7 @@ import createMenuPage from "./menu";
 import createRestaurantHomePage from "./restaurant";
 
 const createTabs = () => {
+    alert("Hello");
     const content = document.querySelector('#content');
 
     //Create the three divs
@@ -46,7 +47,7 @@ const createTabs = () => {
 
 function clearContent() {
     const content = document.querySelector("#content");
-    const pageContent = document.querySelector("#.page-content");
+    const pageContent = document.querySelector(".page-content");
     if (pageContent) {
         content.removeChild(pageContent);
     }
